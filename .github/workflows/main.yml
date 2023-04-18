@@ -19,6 +19,6 @@ jobs:
         run: docker build -t ${{secrets.DOCKER_USERNAME}}/soft-2_task1 . 
 
       - name: "pushing to docker hub"
-        run: docker push ${{secrets.DOCKER_USERNAME}}/soft-2_taks1      
+        run: docker push ${{secrets.DOCKER_USERNAME}}/soft-2_task1      
 
         
